@@ -1,0 +1,15 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+  font-family: "Syne Mono", monospace;
+  font-family: "Xanh Mono", monospace;
+}
+form {
+  margin-top: 20px;
+}
+.container {
+  display: block;
+}
+.currentCity {
+  font-style: italic;
+}

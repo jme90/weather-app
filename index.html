@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Shadows+Into+Light&family=Syne+Mono&family=Xanh+Mono:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <input type="search" placeholder="Enter city here" id="city-input" />
+        <input type="submit" value="Search" id="search-city" />
+        <input type="submit" value="Current" id="current-city" />
+      </form>
+      <br />
+      <h1 id="city">Vancouver, BC</h1>
+      <span class="currentCity"> Current city</span>
+
+      <h3>
+        Monday, July 24 2023 7:45 pm
+      </h3>
+
+      <div class="degreeNow" id="search-temperature">23 ℃ ☀️</div>
+      <br />
+      <div class="wind">
+        Humidity: 75%
+        <br />
+
+        Wind: 6 km/h
+      </div>
+      <br />
+
+      <div class="row">
+        <div class="col-md-1 day1">
+          Tuesday
+          <br />
+          <span class="dayDegree"> 25 ℃ ☀️</span>
+        </div>
+        <div class="col-md-1 day2">
+          Wednesday
+          <br />
+          <span class="dayDegree"> 26 ℃ ☀️</span>
+        </div>
+        <div class="col-md-1 day3">
+          Thursday
+          <br />
+          <span class="dayDegree"> 24 ℃ ☀️</span>
+        </div>
+        <div class="col-md-1 day4">
+          Friday
+          <br />
+          <span class="dayDegree"> 26 ℃ ☀️</span>
+        </div>
+        <div class="col-md-1 day5">
+          Saturday
+          <br />
+          <span class="dayDegree"> 24 ℃ ☀️</span>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

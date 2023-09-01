@@ -1,7 +1,4 @@
 body {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Shadows Into Light", cursive;
-  font-family: "Syne Mono", monospace;
   font-family: "Xanh Mono", monospace;
 }
 form {
@@ -12,4 +9,8 @@ form {
 }
 .currentCity {
   font-style: italic;
+}
+div.source {
+  padding: auto;
+  margin: 40px 40px 90px 120px;
 }
